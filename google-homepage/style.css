@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+
+.nav-container {
+    display:inline;
+}
+
+.nav-left {
+    display:inline;
+}
+
+.nav-right {
+    display: inline;
+}

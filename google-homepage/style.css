@@ -3,14 +3,63 @@
     font-family: arial,sans-serif;
 }
 
-.nav-container {
-    display:inline;
+.nav ul {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline;
 }
 
 .nav-left {
-    display:inline;
+    float: left;
 }
 
 .nav-right {
+    float:right;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+}
+
+.search-buttons {
+    /* margin: 0 auto; */
+}
+
+.search-buttons ul { 
+    display: inline-block;
+}
+
+.search-buttons li {
     display: inline;
+}
+
+.footer {
+    background-color: grey;
+}
+
+.footer ul {
+    display:inline-block;
+}
+
+.footer li {
+    display: inline;
+}
+
+.footer-left {
+    float:left;
+}
+
+.footer-right {
+    float: right;
 }
